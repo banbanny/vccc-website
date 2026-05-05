@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inconsolata, Montserrat, Inter } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 const inconsolata = Inconsolata({
@@ -26,10 +25,9 @@ export const metadata: Metadata = {
   title: "Victory Chapel Christian Center - Panacan",
   description: "Where everybody is somebody and Jesus Christ is Lord",
   icons: {
-    icon: "/logo.png", // must match file inside /public
+    icon: "/logo.png",
   },
 };
-
 
 export default function RootLayout({
   children,
@@ -39,15 +37,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inconsolata.variable} ${montserrat.variable} ${inter.variable} font-[var(--font-inconsolata)] antialiased`}
+        className={`${inconsolata.variable} ${montserrat.variable} ${inter.variable} font-[var(--font-inconsolata)] antialiased overflow-x-hidden`}
       >
-        <Navbar />
-
-        {/* This padding prevents content from hiding under fixed navbar */}
-        <main className="pt-20">
-          {children}
-        </main>
-
+        <main>{children}</main>
         <Footer />
       </body>
     </html>
