@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-black via-[#000000]/40 to-[#772400]/70" />
 
       {/* Content */}
-      <div className="relative z-10 text-white px-6 md:px-0 md:left-[8%] md:absolute md:top-1/2 md:-translate-y-1/2 pb-16 md:pb-0 pt-32 md:pt-0 max-w-[92vw] md:max-w-3xl ">
+      <div className="relative z-10 text-white px-6 md:px-0 md:left-[8%] md:absolute md:-translate-y-1/2 pb-16 md:pb-0 pt-32 md:pt-0 max-w-[92vw] md:max-w-3xl ">
         <p className="text-[10px] md:text-xs tracking-[3px] md:tracking-[6px] uppercase text-white/60 mb-3 font-serif">
           Where everybody is somebody and Jesus Christ is Lord
         </p>

@@ -27,7 +27,7 @@ export default function PastorsPage() {
           />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/50 to-[#12191B]" />
-      <div className="relative z-10 pb-10 md:pb-14 px-6 md:pl-[8%] pt-32 md:pt-0">
+      <div className="relative z-10 text-white px-6 md:px-0 md:left-[8%] md:absolute md:-translate-y-1/2 pb-16 md:pb-0 pt-32 md:pt-0 max-w-[92vw] md:max-w-3xl ">
           <p className="text-[10px] md:text-xs tracking-[3px] md:tracking-[6px] uppercase text-white/60 mb-3 font-serif">
             MINISTERS OF GOD
           </p>
